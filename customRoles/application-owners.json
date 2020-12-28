@@ -1,0 +1,21 @@
+{
+  "Name": "Application owners",
+  "Id": "88888888-8888-8888-8888-888888888888",
+  "IsCustom": true,
+  "Description": "Contributor role granted for application/operations team.",
+  "Actions": [
+    "*"
+  ],
+  "NotActions": [
+    "Microsoft.Network/publicIPAddresses/write",
+    "Microsoft.Network/virtualNetworks/write",
+    "Microsoft.KeyVault/locations/deletedVaults/purge/action"
+  ],
+  "DataActions": [],
+  "NotDataActions": [],
+  "AssignableScopes": [
+    "/subscriptions/{applicationSubscriptionId1}",
+    "/subscriptions/{applicationSubscriptionId2}",
+    "/providers/Microsoft.Management/managementGroups/{applicationGroupId1}"
+  ]
+}
